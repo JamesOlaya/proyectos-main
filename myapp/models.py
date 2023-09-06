@@ -37,3 +37,5 @@ class Libro(models.Model):
     isbn = models.CharField(max_length=100, help_text='ingrese el isbn del libro')
     autor = models.CharField(max_length=100, help_text='ingrese el autor del libro')
     done = models.BooleanField(default=False)
+
+    
